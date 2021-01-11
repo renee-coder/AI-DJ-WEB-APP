@@ -24,3 +24,18 @@ body{
 .div_volume{
     float: right;
 }
+.play_button{
+    width:130px;
+    font-size: 25px;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: canvas_animation;
+    animation-duration:4s ;
+    animation-iteration-count: infinite;
+}
+@keyframes canvas_animation{
+    from {box-shadow: 10px 10px 10px 15px rgb(241, 32, 137);}
+    to{box-shadow: 10px 10px 10px rgb(251, 152, 21);}
+}
