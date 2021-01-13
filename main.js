@@ -5,6 +5,8 @@ leftWristY = 0;
 rightWristX = 0;
 rightWristY = 0;
 
+scoreLeftWrist = 0;
+
 function setup(){
     canvas=createCanvas(600,500);
     canvas.center();
