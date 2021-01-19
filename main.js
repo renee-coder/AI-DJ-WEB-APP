@@ -7,6 +7,9 @@ rightWristY = 0;
 
 scoreLeftWrist = 0;
 
+function preload(){
+    song = loadSound("music.mp3");
+}
 function setup(){
     canvas=createCanvas(600,500);
     canvas.center();
@@ -53,9 +56,6 @@ function draw(){
     }
 }
 
-function preload(){
-    song = loadSound("music.mp3");
-}
 
 function play(){
     song.play();
